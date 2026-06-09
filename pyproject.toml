@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "production-agentic-rag"
+version = "0.1.0"
+description = ""
+authors = ["KevinAi18"]
+readme = "README.md"
+packages = [{ include = "agentic_rag" }]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+beautifulsoup4 = "4.12.3"
+langchain = ">=0.2.3"
+langgraph = ">=0.0.67"
+langchain-community = ">=0.2.4"
+black = ">=24.4.2"
+isort = ">=5.13.2"
+tavily-python = ">=0.3.3"
+langchain-chroma = ">=0.1.1"
+python-dotenv = ">=1.0.1"
+pytest = ">=8.2.2"
+langchain-groq = ">=0.1.6"
+langchain-huggingface = ">=0.1.0"
+langchain-text-splitters = ">=0.2.0"
+sentence-transformers = ">=2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
