@@ -13,3 +13,10 @@
 - Cross-encoder rerankers more accurate than bi-encoders 
 - Cohere Rerank API is popular managed reranking solution 
 - BGE reranker is best open source option for local use 
+ 
+## 2026-06-16 
+### Self-RAG Architecture Notes 
+- Self-RAG model decides when to retrieve and when to skip 
+- Uses special reflection tokens to evaluate retrieval quality 
+- ISREL token checks if retrieved doc is relevant to query 
+- ISSUP token checks if answer is supported by retrieved doc 
