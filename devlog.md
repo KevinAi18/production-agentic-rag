@@ -20,3 +20,10 @@
 - Uses special reflection tokens to evaluate retrieval quality 
 - ISREL token checks if retrieved doc is relevant to query 
 - ISSUP token checks if answer is supported by retrieved doc 
+ 
+## 2026-06-18 
+### CRAG - Corrective RAG Notes 
+- CRAG evaluates retrieved docs before passing to generator 
+- If retrieval score is low it triggers web search fallback 
+- Knowledge refinement strips irrelevant parts from retrieved docs 
+- CRAG improves accuracy on questions needing precise facts 
