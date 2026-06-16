@@ -27,3 +27,10 @@
 - If retrieval score is low it triggers web search fallback 
 - Knowledge refinement strips irrelevant parts from retrieved docs 
 - CRAG improves accuracy on questions needing precise facts 
+ 
+## 2026-06-20 
+### Adaptive RAG Architecture Notes 
+- Adaptive RAG routes queries based on complexity level 
+- Simple queries answered directly without retrieval step 
+- Complex queries trigger multi-step agentic retrieval pipeline 
+- Query classifier trained to predict best retrieval strategy 
