@@ -34,3 +34,10 @@
 - Simple queries answered directly without retrieval step 
 - Complex queries trigger multi-step agentic retrieval pipeline 
 - Query classifier trained to predict best retrieval strategy 
+ 
+## 2026-06-23 
+### LangGraph Workflow Orchestration Notes 
+- LangGraph builds stateful multi-step RAG workflows as graphs 
+- Nodes represent individual steps like retrieval and generation 
+- Edges define conditional routing between pipeline steps 
+- State object passed between nodes tracks full pipeline context 
