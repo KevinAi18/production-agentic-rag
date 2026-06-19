@@ -41,3 +41,10 @@
 - Nodes represent individual steps like retrieval and generation 
 - Edges define conditional routing between pipeline steps 
 - State object passed between nodes tracks full pipeline context 
+ 
+## 2026-06-25 
+### Multi-Agent Collaboration in RAG Notes 
+- Multi-agent setup splits tasks across specialized LLM agents 
+- Retriever agent gathers documents while critic agent evaluates 
+- Supervisor agent coordinates workflow between specialized agents 
+- Reduces single agent overload on complex multi-step queries 
