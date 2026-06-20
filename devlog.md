@@ -48,3 +48,10 @@
 - Retriever agent gathers documents while critic agent evaluates 
 - Supervisor agent coordinates workflow between specialized agents 
 - Reduces single agent overload on complex multi-step queries 
+ 
+## 2026-06-27 
+### Tool Calling in Agentic RAG Notes 
+- Agents call external tools like calculator and web search 
+- Tool schema defines name description and expected parameters 
+- LLM decides which tool to call based on user query intent 
+- Tool output fed back into context for final answer generation 
