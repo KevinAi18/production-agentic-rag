@@ -55,3 +55,10 @@
 - Tool schema defines name description and expected parameters 
 - LLM decides which tool to call based on user query intent 
 - Tool output fed back into context for final answer generation 
+ 
+## 2026-06-30 
+### Agent Memory and Persistence Notes 
+- Long term memory stores facts learned across multiple sessions 
+- Short term memory holds context within single conversation only 
+- Vector store used to persist and retrieve relevant past memories 
+- LangGraph checkpointer saves agent state for resuming workflows 
