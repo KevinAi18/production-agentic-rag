@@ -62,3 +62,10 @@
 - Short term memory holds context within single conversation only 
 - Vector store used to persist and retrieve relevant past memories 
 - LangGraph checkpointer saves agent state for resuming workflows 
+ 
+## 2026-07-02 
+### Human in the Loop Agentic RAG Notes 
+- Human in the loop pauses agent for approval on critical actions 
+- LangGraph interrupt feature stops execution at defined checkpoints 
+- Useful for high stakes actions like sending emails or payments 
+- User feedback resumes agent workflow with approved or edited action 
