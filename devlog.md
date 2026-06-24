@@ -69,3 +69,10 @@
 - LangGraph interrupt feature stops execution at defined checkpoints 
 - Useful for high stakes actions like sending emails or payments 
 - User feedback resumes agent workflow with approved or edited action 
+ 
+## 2026-07-04 
+### Agentic RAG Error Handling Notes 
+- Retry logic added for failed tool calls or API timeouts 
+- Fallback responses generated when retrieval returns no results 
+- Graceful degradation keeps agent functional during partial failures 
+- Error logs captured with full context for debugging pipeline issues 
