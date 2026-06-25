@@ -207,3 +207,7 @@ Groq runs the same open-source models (Llama 3) at significantly faster inferenc
 ## License
 
 Apache 2.0
+ 
+## Architecture Overview 
+ 
+This project implements an agentic RAG pipeline combining CRAG, Self-RAG, and Adaptive RAG strategies orchestrated via LangGraph. The agent dynamically decides whether to retrieve, rewrite the query, or fall back to web search based on document relevance scoring. 
