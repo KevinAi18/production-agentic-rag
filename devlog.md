@@ -76,3 +76,10 @@
 - Fallback responses generated when retrieval returns no results 
 - Graceful degradation keeps agent functional during partial failures 
 - Error logs captured with full context for debugging pipeline issues 
+ 
+## 2026-07-06 
+### Streaming Responses in Agentic RAG Notes 
+- Streaming sends partial tokens to client as they are generated 
+- Server-Sent Events used to stream LLM output over HTTP 
+- Improves perceived latency for long agentic reasoning chains 
+- Intermediate agent steps can be streamed for transparency 
