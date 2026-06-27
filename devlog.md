@@ -83,3 +83,10 @@
 - Server-Sent Events used to stream LLM output over HTTP 
 - Improves perceived latency for long agentic reasoning chains 
 - Intermediate agent steps can be streamed for transparency 
+ 
+## 2026-07-08 
+### Cost Tracking in Agentic RAG Notes 
+- Each LLM call tracked for token usage and estimated cost 
+- Langfuse used to trace full agent run with cost breakdown per step 
+- Helps identify expensive steps like excessive retrieval attempts 
+- Budget limits can stop agent if cost exceeds threshold per query 
