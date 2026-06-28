@@ -211,3 +211,17 @@ Apache 2.0
 ## Architecture Overview 
  
 This project implements an agentic RAG pipeline combining CRAG, Self-RAG, and Adaptive RAG strategies orchestrated via LangGraph. The agent dynamically decides whether to retrieve, rewrite the query, or fall back to web search based on document relevance scoring. 
+ 
+## How It Works 
+ 
+1. User query enters the LangGraph pipeline 
+2. Router node classifies query complexity and intent 
+3. Retriever node fetches relevant chunks from vector store 
+4. Grading node scores retrieved chunks for relevance 
+5. If relevance is low, query is rewritten and retried, or routed to web search 
+6. Generator node produces the final answer using retrieved context 
+ 
+## Tech Stack 
+- LangGraph for stateful agent orchestration 
+- Groq for fast LLM inference 
+- Vector database for semantic retrieval 
