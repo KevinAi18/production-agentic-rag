@@ -225,3 +225,10 @@ This project implements an agentic RAG pipeline combining CRAG, Self-RAG, and Ad
 - LangGraph for stateful agent orchestration 
 - Groq for fast LLM inference 
 - Vector database for semantic retrieval 
+ 
+## Setup 
+ 
+1. Clone the repository 
+2. Install dependencies from requirements.txt 
+3. Add your API keys to a .env file 
+4. Run the main script to start the agent 
