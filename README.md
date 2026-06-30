@@ -232,3 +232,8 @@ This project implements an agentic RAG pipeline combining CRAG, Self-RAG, and Ad
 2. Install dependencies from requirements.txt 
 3. Add your API keys to a .env file 
 4. Run the main script to start the agent 
+ 
+## Limitations 
+- Agent reasoning adds latency compared to standard RAG 
+- Requires careful prompt tuning for reliable routing decisions 
+- Web search fallback depends on external API availability 
