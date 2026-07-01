@@ -237,3 +237,9 @@ This project implements an agentic RAG pipeline combining CRAG, Self-RAG, and Ad
 - Agent reasoning adds latency compared to standard RAG 
 - Requires careful prompt tuning for reliable routing decisions 
 - Web search fallback depends on external API availability 
+ 
+## Contributing 
+- Fork the repository and create a feature branch 
+- Make your changes and test thoroughly before submitting 
+- Open a pull request with a clear description of your changes 
+- Issues and feature requests welcome via GitHub Issues 
