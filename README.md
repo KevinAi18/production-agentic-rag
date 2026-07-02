@@ -249,3 +249,9 @@ This project implements an agentic RAG pipeline combining CRAG, Self-RAG, and Ad
 - Retrieval step accounts for roughly 20 percent of total latency 
 - Streaming reduces perceived latency for long reasoning chains 
 - Caching frequent queries reduces redundant LLM calls 
+ 
+## License 
+This project is released under the MIT License. See the LICENSE file for details. 
+ 
+## Acknowledgements 
+Built using LangGraph for orchestration and Groq for fast LLM inference. 
