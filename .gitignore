@@ -164,4 +164,9 @@ cython_debug/
 # ChromaDB
 .chroma/
 
-.DS_Store
+.DS_Store__pycache__/ 
+*.pyc 
+.env 
+venv/ 
+.vscode/ 
+*.log 
