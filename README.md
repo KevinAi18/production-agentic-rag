@@ -255,3 +255,7 @@ This project is released under the MIT License. See the LICENSE file for details
  
 ## Acknowledgements 
 Built using LangGraph for orchestration and Groq for fast LLM inference. 
+ 
+## FAQ 
+Q: What LLM providers are supported? 
+A: Groq, OpenAI and any provider compatible with the LangChain interface. 
