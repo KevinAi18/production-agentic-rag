@@ -215,11 +215,12 @@ This project implements an agentic RAG pipeline combining CRAG, Self-RAG, and Ad
 ## How It Works 
  
 1. User query enters the LangGraph pipeline 
-2. Router node classifies query complexity and intent 
-3. Retriever node fetches relevant chunks from vector store 
+2. Router node classifies query complexity and intent (routes to Vector Store or Web Search)
+3. Retriever node fetches relevant chunks from the Chroma vector store 
 4. Grading node scores retrieved chunks for relevance 
-5. If relevance is low, query is rewritten and retried, or routed to web search 
-6. Generator node produces the final answer using retrieved context 
+5. If any retrieved documents are graded as irrelevant, the pipeline sets a flag to route the query to web search (Tavily) for fallback documents
+6. Generator node produces the final answer using the retrieved context documents (and web search results, if applicable)
+ 
  
 ## Tech Stack 
 - LangGraph for stateful agent orchestration 
@@ -259,3 +260,7 @@ Built using LangGraph for orchestration and Groq for fast LLM inference.
 ## FAQ 
 Q: What LLM providers are supported? 
 A: Groq, OpenAI and any provider compatible with the LangChain interface. 
+ 
+## Troubleshooting 
+- If retrieval returns no results, check your vector DB connection 
+- If responses are slow, verify your Groq API key has sufficient rate limits 
