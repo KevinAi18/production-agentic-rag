@@ -264,3 +264,8 @@ A: Groq, OpenAI and any provider compatible with the LangChain interface.
 ## Troubleshooting 
 - If retrieval returns no results, check your vector DB connection 
 - If responses are slow, verify your Groq API key has sufficient rate limits 
+ 
+## Deployment Options 
+- Docker Compose for local multi-service setup 
+- Cloud deployment via any container hosting platform 
+- Environment variables control which LLM provider is used in production 
