@@ -1,3 +1,4 @@
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.11-blue.svg) 
 # Production Agentic RAG
 
 Most RAG systems are fragile. They retrieve documents, hope they're relevant, generate an answer, and ship it — with no checks, no fallbacks, no self-awareness.
