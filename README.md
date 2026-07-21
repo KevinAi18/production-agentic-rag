@@ -270,3 +270,6 @@ A: Groq, OpenAI and any provider compatible with the LangChain interface.
 - Docker Compose for local multi-service setup 
 - Cloud deployment via any container hosting platform 
 - Environment variables control which LLM provider is used in production 
+ 
+## Design Philosophy 
+This project prioritizes reliability over raw speed. Every retrieval decision is explainable, and the agent degrades gracefully rather than failing silently when a step goes wrong. 
