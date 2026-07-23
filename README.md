@@ -273,3 +273,6 @@ A: Groq, OpenAI and any provider compatible with the LangChain interface.
  
 ## Design Philosophy 
 This project prioritizes reliability over raw speed. Every retrieval decision is explainable, and the agent degrades gracefully rather than failing silently when a step goes wrong. 
+ 
+## Related Projects 
+Check out other projects in this portfolio for RAG, fine-tuning, and computer vision work. 
